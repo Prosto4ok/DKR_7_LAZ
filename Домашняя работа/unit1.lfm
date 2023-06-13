@@ -1,0 +1,100 @@
+object Form1: TForm1
+  Left = 1431
+  Height = 379
+  Top = 206
+  Width = 395
+  Caption = 'Form1'
+  ClientHeight = 379
+  ClientWidth = 395
+  DesignTimePPI = 120
+  LCLVersion = '2.2.4.0'
+  object Edit1: TEdit
+    Left = 32
+    Height = 28
+    Top = 24
+    Width = 114
+    OnChange = Edit1Change
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 32
+    Height = 28
+    Top = 88
+    Width = 116
+    OnChange = Edit2Change
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 32
+    Height = 28
+    Top = 144
+    Width = 114
+    OnChange = Edit3Change
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 20
+    Top = 56
+    Width = 77
+    Caption = 'Число 1 (a)'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 47
+    Height = 20
+    Top = 120
+    Width = 78
+    Caption = 'Число 2 (b)'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 64
+    Height = 20
+    Top = 176
+    Width = 50
+    Caption = 'Шаг (h)'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 45
+    Top = 216
+    Width = 114
+    Caption = 'Выполнить'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object BitBtn1: TBitBtn
+    Left = 32
+    Height = 52
+    Top = 296
+    Width = 112
+    Caption = 'Выход'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    TabOrder = 4
+  end
+  object Memo1: TMemo
+    Left = 160
+    Height = 256
+    Top = 88
+    Width = 220
+    OnChange = Memo1Change
+    TabOrder = 5
+  end
+  object Label4: TLabel
+    Left = 184
+    Height = 31
+    Top = 24
+    Width = 163
+    Caption = 'Ответ по y=x^2'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end
